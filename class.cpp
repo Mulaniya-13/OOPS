@@ -7,7 +7,7 @@ class Student{
    float cgpa;
    //Methods
    void getPercentage(){
-    cout<<(cgpa*10)<<endl;
+    cout<<(cgpa*10)<<"%"<<endl;
    }
 };
 
@@ -24,7 +24,7 @@ class User{
 };
 
 int main(){
-    Student s1;
+    Student s1;//object
     cout<<sizeof(s1)<<endl;
     return 0;
 }
