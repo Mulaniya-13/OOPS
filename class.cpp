@@ -14,6 +14,7 @@ class Student{
 class User{
     int id;
     string username;
+    float password;
     string bio;
     void deactivate(){
         cout<<"Deleting account";
