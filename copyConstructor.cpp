@@ -24,6 +24,13 @@ class Car {
         mileage=new int;
         *mileage=*original.mileage;
     }
+    ~Car(){
+        cout<<"Deleting object..\n";
+        if(mileage!=NULL){
+            delete mileage;
+            mileage=NULL;
+        }
+    }
 };
 
 int main() {
