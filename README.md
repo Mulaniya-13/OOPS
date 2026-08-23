@@ -1,1 +1,1 @@
-## All concepts of OOPS..
+## All concepts of OOPS.
